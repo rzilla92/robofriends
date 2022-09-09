@@ -13,8 +13,8 @@ const CardList = ({robots}) => {
                     name={robots[i].name} 
                     email={robots[i].email} />
                     )
-                    })
-                }
+                })
+            }
         </div>
     )
 }
